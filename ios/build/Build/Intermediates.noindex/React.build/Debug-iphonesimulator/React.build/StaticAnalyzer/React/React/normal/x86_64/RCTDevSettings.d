@@ -1,0 +1,22 @@
+dependencies: \
+  /Users/jeffreygoldsmith/Desktop/github/organizer/node_modules/react-native/React/Modules/RCTDevSettings.mm \
+  /Users/jeffreygoldsmith/Desktop/github/organizer/node_modules/react-native/React/Modules/RCTDevSettings.h \
+  /Users/jeffreygoldsmith/Desktop/github/organizer/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/jeffreygoldsmith/Desktop/github/organizer/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/jeffreygoldsmith/Desktop/github/organizer/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/jeffreygoldsmith/Desktop/github/organizer/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/jeffreygoldsmith/Desktop/github/organizer/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/jeffreygoldsmith/Desktop/github/organizer/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/jeffreygoldsmith/Desktop/github/organizer/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/jeffreygoldsmith/Desktop/github/organizer/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
+  /Users/jeffreygoldsmith/Desktop/github/organizer/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
+  /Users/jeffreygoldsmith/Desktop/github/organizer/node_modules/react-native/React/Base/RCTBridge+Private.h \
+  /Users/jeffreygoldsmith/Desktop/github/organizer/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/jeffreygoldsmith/Desktop/github/organizer/node_modules/react-native/React/Modules/RCTJSCSamplingProfiler.h \
+  /Users/jeffreygoldsmith/Desktop/github/organizer/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/jeffreygoldsmith/Desktop/github/organizer/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/jeffreygoldsmith/Desktop/github/organizer/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/jeffreygoldsmith/Desktop/github/organizer/node_modules/react-native/React/DevSupport/RCTPackagerClient.h \
+  /Users/jeffreygoldsmith/Desktop/github/organizer/node_modules/react-native/React/Profiler/RCTProfile.h \
+  /Users/jeffreygoldsmith/Desktop/github/organizer/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
+  /Users/jeffreygoldsmith/Desktop/github/organizer/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h
