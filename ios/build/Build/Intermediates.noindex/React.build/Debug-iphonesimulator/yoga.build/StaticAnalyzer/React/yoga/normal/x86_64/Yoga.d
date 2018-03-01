@@ -1,8 +1,8 @@
 dependencies: \
-  /Users/jeffreygoldsmith/Desktop/github/organizer/node_modules/react-native/ReactCommon/yoga/yoga/Yoga.cpp \
-  /Users/jeffreygoldsmith/Desktop/github/organizer/node_modules/react-native/ReactCommon/yoga/yoga/Yoga.h \
-  /Users/jeffreygoldsmith/Desktop/github/organizer/node_modules/react-native/ReactCommon/yoga/yoga/YGEnums.h \
-  /Users/jeffreygoldsmith/Desktop/github/organizer/node_modules/react-native/ReactCommon/yoga/yoga/YGMacros.h \
-  /Users/jeffreygoldsmith/Desktop/github/organizer/node_modules/react-native/ReactCommon/yoga/yoga/YGNode.h \
-  /Users/jeffreygoldsmith/Desktop/github/organizer/node_modules/react-native/ReactCommon/yoga/yoga/Yoga-internal.h \
-  /Users/jeffreygoldsmith/Desktop/github/organizer/node_modules/react-native/ReactCommon/yoga/yoga/YGNodePrint.h
+  /Users/kittyhuang/Developer/mobile/node_modules/react-native/ReactCommon/yoga/yoga/Yoga.cpp \
+  /Users/kittyhuang/Developer/mobile/node_modules/react-native/ReactCommon/yoga/yoga/Yoga.h \
+  /Users/kittyhuang/Developer/mobile/node_modules/react-native/ReactCommon/yoga/yoga/YGEnums.h \
+  /Users/kittyhuang/Developer/mobile/node_modules/react-native/ReactCommon/yoga/yoga/YGMacros.h \
+  /Users/kittyhuang/Developer/mobile/node_modules/react-native/ReactCommon/yoga/yoga/YGNode.h \
+  /Users/kittyhuang/Developer/mobile/node_modules/react-native/ReactCommon/yoga/yoga/Yoga-internal.h \
+  /Users/kittyhuang/Developer/mobile/node_modules/react-native/ReactCommon/yoga/yoga/YGNodePrint.h

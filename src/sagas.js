@@ -1,5 +1,5 @@
 // import { fork, all } from 'redux-saga/effects';
-// import { watchPage } from './page/page.sagas';
+// import { watchPage } from './loginPage/loginPage.sagas';
 
 // export default function* root()
 // {
