@@ -8,10 +8,10 @@ class LoginPage extends Component
   {
     return (
       <View style={styles.container}>
-          <Text>Hello World</Text>
+        <Text>Hello World</Text>
         <Button
-            onPress={Actions.home}
-            title="Login"
+          onPress={Actions.home}
+          title="Login"
         />
       </View>
     );
@@ -19,12 +19,12 @@ class LoginPage extends Component
 }
 
 var styles=StyleSheet.create({
-   containter: {
-       flex: 1,
-       flexDirection: 'column',
-       justifyContent: 'center',
-       alignItems: 'center'
-   },
+  containter: {
+    flex: 1,
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
 });
 
 export default LoginPage;

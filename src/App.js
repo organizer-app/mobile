@@ -21,6 +21,6 @@ class Organizer extends Component
       </Provider>
     );
   }
-};
+}
 
 export default Organizer;
