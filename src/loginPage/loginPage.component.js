@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, Button } from 'react-native';
 import { GoogleSignin, GoogleSigninButton } from 'react-native-google-signin';
-<<<<<<< Updated upstream
 import HomePage from "../homePage/homePage.component";
-=======
 import {Actions} from "react-native-router-flux";
->>>>>>> Stashed changes
 
 const styles = StyleSheet.create({
   container: {
@@ -25,21 +22,18 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
 });
-class LoginPage extends Component
-{
-  constructor(props)
-  {
+class LoginPage extends Component {
+
+  constructor(props) {
     super(props);
     this.state = { user: null };
   }
 
-  componentDidMount()
-  {
+  componentDidMount() {
     this._setupGoogleSignin();
   }
 
-  _setupGoogleSignin()
-  {
+  _setupGoogleSignin() {
     try {
       GoogleSignin.configure({
         iosClientId: '153497318804-fv3cc14468utuqri4g6upju4mvodr0a0.apps.googleusercontent.com',
@@ -51,21 +45,16 @@ class LoginPage extends Component
     }
   }
 
-  _signIn()
-  {
-    GoogleSignin.signIn()
-      .then((user) => {
-        console.log(user);
-        this.setState({ user: user });
-      })
-      .catch((err) => {
-        console.log('WRONG SIGNIN', err);
-      })
-      .done();
+  _signIn() {
+    GoogleSignin.signIn().then((user) => {
+      console.log(user);
+      this.setState({ user: user });
+    }).catch((err) => {
+      console.log('WRONG SIGNIN', err);
+    }).done();
   }
 
-  _sendTokenToAndy(user)
-  {
+  _sendTokenToAndy(user) {
     fetch('https://organizer-server.herokuapp.com/authenticate', {
       method: 'POST',
       headers: {
@@ -82,12 +71,10 @@ class LoginPage extends Component
     });
   }
 
-  render()
-  {
+  render() {
     const { user } = this.state;
 
-    if (!user)
-    {
+    if (!user) {
       return (
         <View style={styles.container}>
           <GoogleSigninButton
@@ -98,30 +85,10 @@ class LoginPage extends Component
           />
         </View>
       );
-    } 
+    }
     else {
       this._sendTokenToAndy(user);
 
-<<<<<<< Updated upstream
-   if (!user)
-   {
-     return (
-       <View style={styles.container}>
-         <GoogleSigninButton
-           style={{ width: 312, height: 48 }}
-           size={GoogleSigninButton.Size.Wide}
-           color={GoogleSigninButton.Color.Dark}
-           onPress={this._signIn.bind(this)}
-         />
-       </View>
-     );
-   } else {
-     return (
-       <HomePage/>
-     );
-   }
- }
-=======
       return (
         <View style={styles.container}>
           <Text>You're logged in!</Text>
@@ -133,7 +100,6 @@ class LoginPage extends Component
       );
     }
   }
->>>>>>> Stashed changes
 }
 
 export default LoginPage;
