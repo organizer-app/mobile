@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {View, Text, Button} from 'react-native';
+import {View, Text, Button, StyleSheet, TouchableHighlight} from 'react-native';
 import {Actions} from 'react-native-router-flux';
 import styles from '../styleSheets/stylesheet';
 
@@ -24,9 +24,24 @@ class HomePage extends Component {
           title="Manage Groups"
           onPress={Actions.groups}
         />
+
+        <TouchableHighlight
+          style={homePageStyles.profileButton}
+          onPress={Actions.home}>
+          <Text>Profile</Text>
+        </TouchableHighlight>
       </View>
+
     );
   }
 }
+
+const homePageStyles = StyleSheet.create({
+  profileButton: {
+    position: 'absolute',
+    bottom:50,
+    left:50,
+  },
+});
 
 export default HomePage;

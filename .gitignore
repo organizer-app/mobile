@@ -1,4 +1,6 @@
 /node_modules
 build/
 .idea/
-
+ios/organizer.*
+.DS_Store
+ios/Pods/
