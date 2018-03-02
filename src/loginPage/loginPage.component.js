@@ -1,11 +1,9 @@
-import React, { Component } from 'react';
-import { View, Text, StyleSheet, Button } from 'react-native';
-import { Actions } from 'react-native-router-flux';
+import React, {Component} from 'react';
+import {View, Text, StyleSheet, Button} from 'react-native';
+import {Actions} from 'react-native-router-flux';
 
-class LoginPage extends Component
-{
-  render()
-  {
+class LoginPage extends Component {
+  render() {
     return (
       <View style={styles.container}>
         <Text>Hello World</Text>
@@ -18,12 +16,12 @@ class LoginPage extends Component
   }
 }
 
-var styles=StyleSheet.create({
+var styles = StyleSheet.create({
   containter: {
     flex: 1,
     flexDirection: 'column',
     justifyContent: 'center',
-    alignItems: 'center',
+    alignItems: 'center'
   },
 });
 

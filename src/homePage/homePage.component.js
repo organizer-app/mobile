@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import { View, Text, Button } from 'react-native';
-import { Actions } from 'react-native-router-flux';
+import React, {Component} from 'react';
+import {View, Text, Button} from 'react-native';
+import {Actions} from 'react-native-router-flux';
 
 class HomePage extends Component {
   render() {
@@ -9,7 +9,7 @@ class HomePage extends Component {
         <Text>Create Session with: </Text>
         <Button
           title="Permanent Group"
-          onPress={Actions.login}
+          onPress={Actions.groups}
         />
         <Button
           title="Only You"

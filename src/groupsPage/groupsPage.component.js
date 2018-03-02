@@ -1,11 +1,13 @@
-import React, { Component } from 'react';
-import { View, Text, Button } from 'react-native';
+import React, {Component} from 'react';
+import {View, Text} from 'react-native';
+import GroupList from '../components/groupList/groupList.component';
 
 class GroupsPage extends Component {
   render() {
     return (
       <View>
         <Text>Groups</Text>
+        <GroupList/>
       </View>
     );
   }

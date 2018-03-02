@@ -11,6 +11,8 @@
     "react": "16.2.0",
     "react-native": "0.53.3",
     "react-native-router-flux": "^4.0.0-beta.28",
+    "react-native-swipeout": "^2.3.3",
+    "react-native-tableview-simple": "^0.17.2",
     "react-redux": "^5.0.7",
     "redux": "^3.7.2",
     "redux-logger": "^3.0.6",
