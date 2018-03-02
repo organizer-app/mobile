@@ -16,14 +16,20 @@ class GroupList extends Component {
               key: 1,
               name: 'GroupOne',
               members: [
-                "Jack", "Betty", "Amy", "Kevin"
+                {key: "Jack"},
+                {key: "Betty"},
+                {key: "Amy"},
+                {key: "Kevin"}
               ]
             },
             {
               key: 2,
               name: 'GroupTwo',
               members: [
-                "James", "Bella", "Alice", "Kelly"
+                {key: "James"},
+                {key: "Bella"},
+                {key: "Amy"},
+                {key: "Kevin"}
               ]
             },
           ]}

@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
 import {View, Text, Button} from 'react-native';
 import {Actions} from 'react-native-router-flux';
+import styles from '../styleSheets/stylesheet';
 
 class HomePage extends Component {
   render() {
     return (
-      <View>
+      <View style={styles.container}>
         <Text>Create Session with: </Text>
         <Button
           title="Permanent Group"
@@ -18,6 +19,10 @@ class HomePage extends Component {
         <Button
           title="Temporary Group"
           onPress={Actions.login}
+        />
+        <Button
+          title="Manage Groups"
+          onPress={Actions.groups}
         />
       </View>
     );
