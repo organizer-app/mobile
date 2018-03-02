@@ -37,7 +37,7 @@
 		34DB898695144843988E3233 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81319A4922754F99A971606D /* SystemConfiguration.framework */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		67F1A35B27F740AC851B1CD8 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BE57C384CEF40D2B13BC268 /* libz.tbd */; };
-		76D2D432204939B1007FDC07 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76D2D431204939B1007FDC07 /* GoogleService-Info.plist */; };
+		76CE7E142049BA8B0001CB9C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76CE7E132049BA8B0001CB9C /* GoogleService-Info.plist */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		8C2F71463FDD9E96EA9AA8E3 /* libPods-organizerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 564C7EA544787D0666206D14 /* libPods-organizerTests.a */; };
 		A18F0C1A669D4478829626EF /* libRNGoogleSignin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF32A3818ED4424F8FD03E52 /* libRNGoogleSignin.a */; };
@@ -361,7 +361,7 @@
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		5F3266BFDDC20DD36CD37853 /* Pods-organizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-organizer.release.xcconfig"; path = "Pods/Target Support Files/Pods-organizer/Pods-organizer.release.xcconfig"; sourceTree = "<group>"; };
 		6BE57C384CEF40D2B13BC268 /* libz.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		76D2D431204939B1007FDC07 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		76CE7E132049BA8B0001CB9C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		7ABD23DB450241BE950462E5 /* AddressBook.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		81319A4922754F99A971606D /* SystemConfiguration.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -540,7 +540,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
-				76D2D431204939B1007FDC07 /* GoogleService-Info.plist */,
+				76CE7E132049BA8B0001CB9C /* GoogleService-Info.plist */,
 			);
 			name = organizer;
 			sourceTree = "<group>";
@@ -1148,7 +1148,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				76D2D432204939B1007FDC07 /* GoogleService-Info.plist in Resources */,
+				76CE7E142049BA8B0001CB9C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
