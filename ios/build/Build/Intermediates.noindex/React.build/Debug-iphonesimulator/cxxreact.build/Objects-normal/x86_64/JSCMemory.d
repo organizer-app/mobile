@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/kittyhuang/Developer/mobile/node_modules/react-native/ReactCommon/cxxreact/JSCMemory.cpp \
-  /Users/kittyhuang/Developer/mobile/node_modules/react-native/ReactCommon/cxxreact/JSCMemory.h \
-  /Users/kittyhuang/Developer/mobile/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
-  /Users/kittyhuang/Developer/mobile/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h
+  /Users/jeffreygoldsmith/Desktop/github/organizer-app/mobile/node_modules/react-native/ReactCommon/cxxreact/JSCMemory.cpp \
+  /Users/jeffreygoldsmith/Desktop/github/organizer-app/mobile/node_modules/react-native/ReactCommon/cxxreact/JSCMemory.h \
+  /Users/jeffreygoldsmith/Desktop/github/organizer-app/mobile/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
+  /Users/jeffreygoldsmith/Desktop/github/organizer-app/mobile/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h

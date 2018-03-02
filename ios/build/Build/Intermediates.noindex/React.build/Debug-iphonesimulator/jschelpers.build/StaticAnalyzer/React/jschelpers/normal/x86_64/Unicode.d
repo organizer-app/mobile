@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/kittyhuang/Developer/mobile/node_modules/react-native/ReactCommon/jschelpers/Unicode.cpp \
-  /Users/kittyhuang/Developer/mobile/node_modules/react-native/ReactCommon/jschelpers/Unicode.h
+  /Users/jeffreygoldsmith/Desktop/github/organizer-app/mobile/node_modules/react-native/ReactCommon/jschelpers/Unicode.cpp \
+  /Users/jeffreygoldsmith/Desktop/github/organizer-app/mobile/node_modules/react-native/ReactCommon/jschelpers/Unicode.h

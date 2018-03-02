@@ -1,0 +1,34 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'organizer' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for organizer
+  pod 'Google/SignIn'
+
+  target 'organizer-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'organizerTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+# target 'organizer-tvOS' do
+#   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+#   # use_frameworks!
+
+#   # Pods for organizer-tvOS
+
+#   target 'organizer-tvOSTests' do
+#     inherit! :search_paths
+#     # Pods for testing
+#   end
+
+# end
