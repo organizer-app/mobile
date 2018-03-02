@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
-import {View, Text, StyleSheet, Button} from 'react-native';
+import {View, Text, Button} from 'react-native';
 import {Actions} from 'react-native-router-flux';
+import styles from '../styleSheets/stylesheet';
 
 class LoginPage extends Component {
   render() {
@@ -15,14 +16,5 @@ class LoginPage extends Component {
     );
   }
 }
-
-var styles = StyleSheet.create({
-  containter: {
-    flex: 1,
-    flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center'
-  },
-});
 
 export default LoginPage;
