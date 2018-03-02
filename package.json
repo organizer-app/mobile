@@ -11,6 +11,7 @@
     "react": "16.2.0",
     "react-native": "0.53.3",
     "react-native-google-signin": "^0.12.0",
+    "react-native-modal": "^5.2.0",
     "react-native-router-flux": "^4.0.0-beta.28",
     "react-native-swipeout": "^2.3.3",
     "react-native-tableview-simple": "^0.17.2",

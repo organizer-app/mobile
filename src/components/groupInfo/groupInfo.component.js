@@ -1,25 +1,28 @@
 import React, {Component} from 'react';
-import {FlatList, Text, View, Button} from 'react-native';
-import {Cell} from "react-native-tableview-simple";
+import {FlatList, Text, View} from 'react-native';
+import {Cell, Separator} from "react-native-tableview-simple";
 import styles from '../../styleSheets/stylesheet';
-import {Actions} from 'react-native-router-flux';
+import DeleteModal from './deleteModal.component';
+import AddModal from './addModal.component';
 
 class GroupInfo extends Component {
 
   render() {
-    return(
+
+    return (
       <View>
         <Text style={styles.spacing}>Group Name</Text>
+
         <Cell
+          style={styles.cell}
           cellStyle="Basic"
           title={this.props.group.name}
         />
+
         <Text style={styles.spacing}>Members</Text>
-        <Cell
-          cellStyle="Basic"
-          title="Add Member"
-          onPress={Actions.login}
-        />
+
+        <AddModal />
+
         <FlatList
           data={this.props.group.members}
           renderItem={
@@ -27,13 +30,14 @@ class GroupInfo extends Component {
               <Cell
                 style={styles.container}
                 cellStyle="Basic"
-                title={item.key} />
-            }
+                title={item.key}/>
+          }
+          ItemSeparatorComponent={({highlighted}) =>
+            <Separator isHidden={highlighted}/>}
         />
-        <Button
-          title="Delete Group"
-          onPress={Actions.login}
-        />
+
+        <DeleteModal/>
+
       </View>
     );
   }

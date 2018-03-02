@@ -9,5 +9,12 @@ export default StyleSheet.create({
   },
   spacing: {
     padding: Platform.OS === 'ios' ? 10 : 20
+  },
+  cell: {
+    borderTopWidth: 0.5,
+    borderTopColor: '#595959',
+    borderBottomWidth: 0.5,
+    borderBottomColor: '#595959',
+    color: 'blue',
   }
 });

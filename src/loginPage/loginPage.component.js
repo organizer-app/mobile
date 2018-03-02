@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { View, Text, StyleSheet, Button } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 import { GoogleSignin, GoogleSigninButton } from 'react-native-google-signin';
+import HomePage from "../homePage/homePage.component";
 
 const styles = StyleSheet.create({
  container: {
@@ -77,9 +78,7 @@ class LoginPage extends Component
      );
    } else {
      return (
-       <View style={styles.container}>
-         <Text>You're logged in!</Text>
-       </View>
+       <HomePage/>
      );
    }
  }
