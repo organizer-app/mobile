@@ -36,7 +36,7 @@ module.exports = {
         'react/jsx-no-undef': 'error', // make sure undefined properties scream
         'react/jsx-uses-react': 'error',
         'react/jsx-uses-vars': 'error',
-        'react/prop-types': 'warn',
+        // 'react/prop-types': 'warn',
         'react/react-in-jsx-scope': 'error',
         'react/sort-comp': 'warn',
         'semi': [ 'error', 'always' ],
