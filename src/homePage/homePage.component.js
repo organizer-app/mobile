@@ -1,8 +1,8 @@
-import React, {Component} from 'react';
-import {View, Text, Button, StyleSheet, TouchableOpacity} from 'react-native';
-import {Actions} from 'react-native-router-flux';
+import React, { Component } from 'react';
+import { View, Text, Button, StyleSheet, TouchableOpacity, Image } from 'react-native';
+import { Actions } from 'react-native-router-flux';
 import styles from '../styleSheets/stylesheet';
-import { Col, Row, Grid } from "react-native-easy-grid";
+import { Col, Row, Grid } from 'react-native-easy-grid';
 
 class HomePage extends Component {
   render() {
@@ -30,15 +30,15 @@ class HomePage extends Component {
           </View>
         </Row>
         <Row size={25}>
-          <Col style={{alignItems: 'center', marginLeft:50}}>
+          <Col style={{ alignItems: 'center', marginLeft:50 }}>
             <TouchableOpacity
               style={homePageStyles.profileButton}
-              onPress={Actions.groups}
+              onPress={Actions.profile}
             >
               <Text>Profile</Text>
             </TouchableOpacity>
           </Col>
-          <Col style={{alignItems: 'center', marginRight:50}}>
+          <Col style={{ alignItems: 'center', marginRight:50 }}>
             <TouchableOpacity
               style={homePageStyles.profileButton}
               onPress={Actions.groups}
@@ -60,7 +60,7 @@ const homePageStyles = StyleSheet.create({
     borderWidth: 2,
     borderColor: '#000033',
     paddingVertical: 15,
-    paddingHorizontal:30
+    paddingHorizontal:30,
   },
 });
 

@@ -73,6 +73,7 @@ class LoginPage extends Component {
 
   render() {
     const { user } = this.state;
+    const goToHomePage = () => Actions.home();
 
     if (!user) {
       return (
@@ -88,15 +89,15 @@ class LoginPage extends Component {
     }
     else {
       this._sendTokenToAndy(user);
-
       return (
         <View style={styles.container}>
           <Text>You're logged in!</Text>
           <Button
             title="Go to home screen"
-            onPress={Actions.home}
+            onPress={goToHomePage}
           />
         </View>
+
       );
     }
   }
