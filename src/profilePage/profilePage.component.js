@@ -12,7 +12,7 @@ class ProfilePage extends Component {
       <Grid>
         <Row size={40}>
           <Col size={50}>
-            <View style={profilePageStyles.buttonContainer}>
+            <View style={profilePageStyles.container}>
               <Image
                 source={{uri: GoogleSignin.currentUser().photo}}
                 style={{width: 120, height: 120}}
@@ -20,7 +20,7 @@ class ProfilePage extends Component {
             </View>
           </Col>
           <Col size={50}>
-            <View style={profilePageStyles.buttonContainer}>
+            <View style={profilePageStyles.container}>
               <Text>{GoogleSignin.currentUser().name}</Text>
               <Text>{GoogleSignin.currentUser().email}</Text>
             </View>
@@ -28,7 +28,7 @@ class ProfilePage extends Component {
         </Row>
         <Row size={30}>
           <Col style={{backgroundColor: 'red'}}>
-            <View style={profilePageStyles.buttonContainer}>
+            <View style={profilePageStyles.container}>
               <TouchableOpacity style={profilePageStyles.bigButton}>
                 <Text style={profilePageStyles.buttonText}>
                   Create{"\n"}
@@ -38,7 +38,7 @@ class ProfilePage extends Component {
             </View>
           </Col>
           <Col style={{backgroundColor: 'yellow'}}>
-            <View style={profilePageStyles.buttonContainer}>
+            <View style={profilePageStyles.container}>
               <TouchableOpacity style={profilePageStyles.bigButton}>
                 <Text style={profilePageStyles.buttonText}>
                   Past{"\n"}
@@ -50,8 +50,8 @@ class ProfilePage extends Component {
         </Row>
         <Row size={30}>
           <Col style={{backgroundColor: 'pink'}}>
-            <View style={profilePageStyles.buttonContainer}>
-              <TouchableOpacity style={profilePageStyles.bigButton}>
+            <View style={profilePageStyles.container}>
+              <TouchableOpacity style={profilePageStyles.bigButton} onPress={Actions.groups}>
                 <Text style={profilePageStyles.buttonText}>
                   Manage{"\n"}
                   Groups
@@ -60,7 +60,7 @@ class ProfilePage extends Component {
             </View>
           </Col>
           <Col style={{backgroundColor: 'gray'}}>
-            <View style={profilePageStyles.buttonContainer}>
+            <View style={profilePageStyles.container}>
               <TouchableOpacity style={profilePageStyles.bigButton}>
                 <Text style={profilePageStyles.buttonText}>
                   Manage{"\n"}
@@ -77,15 +77,17 @@ class ProfilePage extends Component {
 
 const profilePageStyles = StyleSheet.create({
   bigButton: {
-    backgroundColor: '#99AAFF', // need to figure out how to stretch button vertically then remove this
-    alignSelf: 'stretch'
+    alignSelf: 'stretch',
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center'
   },
   buttonText: {
     textAlign: 'center',
     fontFamily: 'HelveticaNeue-Light',
     fontSize: 20,
   },
-  buttonContainer: {
+  container: {
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center'
